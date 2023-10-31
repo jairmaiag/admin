@@ -5,4 +5,4 @@
 <img src="https://img.shields.io/badge/Typescript%205.2.2-137cc2?&logo=typescript&logoColor=FFFFFF&style=flat">
 </a>   
 
-# Aminstração de usuários de recursos.
+# API para aminstração de usuários de recursos.

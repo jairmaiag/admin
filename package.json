@@ -18,6 +18,7 @@
   "private": true,
   "homepage": "https://github.com/jairmaiag/admin#readme",
   "devDependencies": {
+    "@types/node": "^20.8.9",
     "typescript": "^5.2.2"
   }
 }
