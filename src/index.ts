@@ -1,17 +1,13 @@
 import express from 'express';
 import { Router, Request, Response } from 'express';
 import dotenv from 'dotenv'; 
+import route from './routes';
+
 dotenv.config();
 
 const app = express();
 
-const route = Router();
-
 app.use(express.json());
-
-route.get('/', (req: Request, res: Response) => {
-    res.json({ message: 'Ola mundo com Typescript' });
-})
 
 app.use(route);
 
