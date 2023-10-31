@@ -4,7 +4,8 @@
   "description": "API para administração de usuários e acesso a qualquer sistema.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json",
+    "start": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "Jair M. Diniz (https://github.com/jairmaiag)",
@@ -17,6 +18,9 @@
   ],
   "private": true,
   "homepage": "https://github.com/jairmaiag/admin#readme",
+  "dependencies": {
+    "fastify": "^4.24.3"
+  },
   "devDependencies": {
     "@types/node": "^20.8.9",
     "typescript": "^5.2.2"
