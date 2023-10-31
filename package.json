@@ -1,0 +1,19 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "Módulo ou projeto para administração de usuários e acesso a qualquer sistema.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jair M. Diniz (https://github.com/jairmaiag)",
+  "license": "ISC",
+  "engines": {
+    "node": "=21.1.0"
+  },
+  "os": [
+    "linux"
+  ],
+  "private": true
+}
