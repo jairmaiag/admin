@@ -15,5 +15,6 @@
   "os": [
     "linux"
   ],
-  "private": true
+  "private": true,
+  "homepage": "https://github.com/jairmaiag/admin#readme"
 }
