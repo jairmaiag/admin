@@ -1,15 +1,18 @@
-import fastify from 'fastify';
+import express from 'express';
+import { Router, Request, Response } from 'express';
+import dotenv from 'dotenv'; 
+dotenv.config();
 
-const server = fastify();
+const app = express();
 
-server.get('/ping', async (request, reply) => {
-    return 'pong';
+const route = Router();
+
+app.use(express.json());
+
+route.get('/', (req: Request, res: Response) => {
+    res.json({ message: 'Ola mundo com Typescript' });
 })
 
-server.listen({ port: 8080 }, (err, address) => {
-    if (err) {
-        console.error(err);
-        process.exit(1);
-    }
-    console.log(`Server listening at ${address}`);
-})
+app.use(route);
+
+app.listen(process.env.PORT, () => 'server running on port 3333');

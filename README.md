@@ -4,8 +4,8 @@
 <a href="https://www.typescriptlang.org/pt/docs/" alt="nodejs" target="_blank">
 <img src="https://img.shields.io/badge/Typescript%205.2.2-137cc2?&logo=typescript&logoColor=FFFFFF&style=flat">
 </a>   
-<a href="https://fastify.dev/docs/v4.24.x/" alt="fastify" target="_blank">
-<img src="https://img.shields.io/badge/Fastify%204.24.3-202020?&logo=fastify&logoColor=FFFFFF&style=flat">
+<a href="https://expressjs.com/pt-br/4x/api.html" alt="express" target="_blank">
+<img src="https://img.shields.io/badge/Express%204.18.2-eee?&logo=express&logoColor=444&style=flat">
 </a>   
 
 # API para aminstração de usuários de recursos.
