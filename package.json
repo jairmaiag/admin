@@ -1,7 +1,7 @@
 {
   "name": "admin",
   "version": "1.0.0",
-  "description": "Módulo ou projeto para administração de usuários e acesso a qualquer sistema.",
+  "description": "API para administração de usuários e acesso a qualquer sistema.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,8 @@
     "linux"
   ],
   "private": true,
-  "homepage": "https://github.com/jairmaiag/admin#readme"
+  "homepage": "https://github.com/jairmaiag/admin#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
